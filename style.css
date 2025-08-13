@@ -12,7 +12,19 @@ body{
 
 }
 p{
-    color: black;
+    color: rgb(24, 146, 222);
     text-align: center;
+}
+
+header{
+    background-color: #10ebca;
+    position:sticky;
+    top: 0;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
