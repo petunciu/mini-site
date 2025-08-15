@@ -6,28 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página Inicial</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1><a href="/">Logo</a></h1>
-    <nav>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/sobre.html">Sobre</a></li>
-        <li><a href="/contato.html">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="container ajuste-flex">
+      <h1><a href="/">Logo</a></h1>
+      <nav>
+        <ul>
+          <li class="item-menu"><a href="index.html">Home</a></li>
+          <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+          <li class="item-menu"><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <p>boas-vindas</p>
+    <div class="container main">
+      <section>
+        <h2>Sobre o Mim</h2>
+        <p>uma pessoa que está semre buscando conhecimento e se arrisca<strong>  </strong> 
+          </p>
+
+        <a href="sobre.html">Saiba mais</a>
+      </section>
+
+      <section>
+        <h2>quais sonhos </h2>
+        <p>quando eu era criança eu queria ser veterinario e depois cozinheiro</p>
+
+        <a href="sobre.html">Saiba mais</a>
+
+      </section>
+
+      <section>
+        <h2>oq tem vontade </h2>
+        <p>tenho muito vontade de um dia conhecer o mundo sair do Brasil</p>
+        <a href="sobre.html">Saiba mais</a>
+      </section>
+    </div>
   </main>
 
-  <footer> 
-    <p>Todos os direitos reservados</p>
-  </footer>
+  <footer>
+    <div class="container">
+      <p>Todos os direitos reservados.</p>
 
+      <a href="https://github.com/nevesapi/mini-site" target="_blank">
+        <img src="assets/github.png" alt="">
+        Github
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
